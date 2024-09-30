@@ -1,0 +1,22 @@
+[0.382s] Invoking command in '/ros2_workspace/src/wall_following_pkg': PYTHONPATH=/ros2_workspace/build/wall_following_pkg/prefix_override:/ros2_workspace/install/wall_following_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_following_pkg build --build-base /ros2_workspace/build/wall_following_pkg/build install --record /ros2_workspace/build/wall_following_pkg/install.log --install-scripts $base/lib/wall_following_pkg --single-version-externally-managed
+[0.501s] running egg_info
+[0.501s] writing ../../build/wall_following_pkg/wall_following_pkg.egg-info/PKG-INFO
+[0.508s] writing dependency_links to ../../build/wall_following_pkg/wall_following_pkg.egg-info/dependency_links.txt
+[0.508s] writing entry points to ../../build/wall_following_pkg/wall_following_pkg.egg-info/entry_points.txt
+[0.508s] writing requirements to ../../build/wall_following_pkg/wall_following_pkg.egg-info/requires.txt
+[0.508s] writing top-level names to ../../build/wall_following_pkg/wall_following_pkg.egg-info/top_level.txt
+[0.533s] reading manifest file '../../build/wall_following_pkg/wall_following_pkg.egg-info/SOURCES.txt'
+[0.533s] writing manifest file '../../build/wall_following_pkg/wall_following_pkg.egg-info/SOURCES.txt'
+[0.533s] running build
+[0.534s] running build_py
+[0.534s] running install
+[0.534s] running install_lib
+[0.535s] running install_data
+[0.536s] running install_egg_info
+[0.537s] removing '/ros2_workspace/install/wall_following_pkg/lib/python3.8/site-packages/wall_following_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.537s] Copying ../../build/wall_following_pkg/wall_following_pkg.egg-info to /ros2_workspace/install/wall_following_pkg/lib/python3.8/site-packages/wall_following_pkg-0.0.0-py3.8.egg-info
+[0.538s] running install_scripts
+[0.549s] Installing control_node script to /ros2_workspace/install/wall_following_pkg/lib/wall_following_pkg
+[0.549s] Installing lidar_processing_node script to /ros2_workspace/install/wall_following_pkg/lib/wall_following_pkg
+[0.549s] writing list of installed files to '/ros2_workspace/build/wall_following_pkg/install.log'
+[0.563s] Invoked command in '/ros2_workspace/src/wall_following_pkg' returned '0': PYTHONPATH=/ros2_workspace/build/wall_following_pkg/prefix_override:/ros2_workspace/install/wall_following_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_following_pkg build --build-base /ros2_workspace/build/wall_following_pkg/build install --record /ros2_workspace/build/wall_following_pkg/install.log --install-scripts $base/lib/wall_following_pkg --single-version-externally-managed
