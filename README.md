@@ -30,26 +30,29 @@ ros2 launch wall_following_pkg wall_following_pid_launch.py
 
 ### Customization
 PID Tuning
-You can adjust the PID gains in the control file,to fine-tune the controller behavior. The following parameters can be modified:  
+You can adjust the PID gains in the control file,to fine-tune the controller behavior. The following parameters can be modified:   
+
 Kp: Proportional gain.  
+
 Ki: Integral gain.  
+
 Kd: Derivative gain.  
+
 desired_distance: The target distance from the wall to be maintained.  
 
 #Directory Structure  
-Here's the typical structure of the repository:  
-ros2_wall_following_pid/
-│
-├── src/
-│   ├── wall_following_node.py         # Wall following node (Python)
-│   ├── pid_control_node.py            # PID control node (Python)
-│
-├── launch/
-│   ├── wall_following_pid_launch.py   # Launch file to start both nodes
-│
-│
-├── setup.py                  
-└── package.xml                         # ROS2 package metadata
+Here's the typical structure of the repository:    
+ros2_wall_following_pid/  
+│  
+├── src/  
+│   ├── wall_following_node.py            
+│   ├── pid_control_node.py           
+│  
+├── launch/  
+│   ├── wall_following_pid_launch.py    
+│  
+├── setup.py                    
+└── package.xml                          
 
 
 
