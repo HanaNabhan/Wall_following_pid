@@ -40,16 +40,17 @@ Kd: Derivative gain.
 
 desired_distance: The target distance from the wall to be maintained.  
 
-#Directory Structure  
-Here's the typical structure of the repository:    
+# Directory Structure  
+Here's the typical structure of the repository:   
+
 ros2_wall_following_pid/  
 │  
 ├── src/  
 │   ├── wall_following_node.py            
-│   ├── pid_control_node.py           
+│   └── pid_control_node.py           
 │  
 ├── launch/  
-│   ├── wall_following_pid_launch.py    
+│   └── wall_following_pid_launch.py    
 │  
 ├── setup.py                    
 └── package.xml                          
