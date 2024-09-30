@@ -1,4 +1,0 @@
-[console_scripts]
-control_node = wall_following_pkg.control_node:main
-lidar_processing_node = wall_following_pkg.lidar_processing_node:main
-
