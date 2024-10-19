@@ -9,11 +9,12 @@ class ControlNode(Node):
     def __init__(self):
         super().__init__('control_node')
         self.desired_distance_right = 0.64  # Desired distance from the right wall in meters
-        self.kp_steering = 1.6
+        # Change this to match your vehicle
+        self.kp_steering = 0.0
         self.ki_steering = 0.0
-        self.kd_steering = 7
-        self.kp_throttle = 0.15
-        self.max_throttle = 0.05
+        self.kd_steering = 0.0
+        self.kp_throttle = 0.0
+        self.max_throttle = 0.00
 
         self.last_error = 0.0
         self.integral = 0.0
